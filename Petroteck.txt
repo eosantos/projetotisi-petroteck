@@ -1,0 +1,41 @@
+CREATE TABLE usuario(
+email	VARCHAR,
+senha	VARCHAR
+);
+
+INSERT INTO usuario
+VALUES
+('antonio','340530'),
+('eduardo','19151');
+
+select * from usuario;
+
+CREATE TABLE produtos(
+codigo	INTEGER,
+nome	VARCHAR,
+qtde	INTEGER,
+valor	NUMERIC
+);
+
+INSERT INTO produtos
+VALUES
+(1,'GASOLINA', 1000, 2.5),
+(2, 'ETANOL', 2000, 1.5);
+
+SELECT * FROM produtos;
+
+
+
+CREATE TABLE usuario(
+nome	VARCHAR,
+senha	VARCHAR
+);
+
+INSERT INTO usuario
+VALUES
+('antonio','340530'),
+('eduardo','19151');
+
+select * from usuario;
+
+
